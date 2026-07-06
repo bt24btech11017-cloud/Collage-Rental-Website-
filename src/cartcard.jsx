@@ -12,7 +12,7 @@ const cartcard = ({title,img,price,description,selleremail,sellerphone}) => {
                 <div>
                     <div className='font-bold mb-2 border-b-2'>{title}</div>
                     <div className='w-[15vw] text-[13px]'>{description}</div>
-                    <div className='text-[13px] font-bold mt-2 border-2 w-[40%] p-1'>{price}</div>
+                    <div className='text-[13px] font-bold mt-2 border-2 w-[40%] p-1'>Rs. {price}</div>
                 </div>
             </div>
             </div>

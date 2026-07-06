@@ -15,12 +15,12 @@ const home = (props) => {
        <div className='flex mt-7 gap-4'>
         <div>
             <div className='text-3xl'>50+</div>
-            <div>Plant species</div>
+            <div>Customers</div>
         </div>
         <div className='text-5xl'> | </div>
         <div>
             <div className='text-3xl'>100+</div>
-            <div>Customers</div>
+            <div>Products</div>
         </div>
        </div>
        <div></div>
@@ -33,7 +33,9 @@ const home = (props) => {
 
      <div className='mt-15 font-serif'>
         <div className='flex justify-center font-serif font-bold text-4xl mb-2'>About Us</div>
-        <div className='flex justify-center'>Order now and appreciate the beauty of nature.</div>
+        <div className='flex justify-center'>
+         Register Today! and start buy/sell and renting
+        </div>
         <div className='m-7 mt-10 mb-20 flex justify-center gap-7'>
          {props.data.map((elem) => {
              return(

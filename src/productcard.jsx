@@ -34,7 +34,7 @@ const productcard = ({name,condition,description,price,img,qty,selleremail,selle
       <div className='flex justify-between mt-3'>
         <div>
           <div className='text-[12px]'>Price</div>
-          <div className='text-[12px] font-bold'>${price}</div>
+          <div className='text-[12px] font-bold'>Rs. {price}</div>
         </div>
         <button className='text-[12px] bg-red-400 p-[7px] rounded-[6px] text-white' onClick={() => {
           adddatatofirebase(name,price,img,description,selleremail,sellerphone)
