@@ -1,4 +1,4 @@
-# 🏠 College Rental Marketplace
+<img width="1451" height="788" alt="image" src="https://github.com/user-attachments/assets/17c8aae1-af5e-4ecf-838c-36e468ff2964" /># 🏠 College Rental Marketplace
 
 A full-stack rental marketplace web application built using **React**, **Firebase Authentication**, **Cloud Firestore**, and **Tailwind CSS**. The platform enables users to list products for rent, browse items posted by others, manage their own listings, and securely communicate with sellers.
 
@@ -132,32 +132,6 @@ npm run dev
 ```bash
 npm run build
 ```
-
----
-
-## 📷 Screenshots
-
-### Home Page
-
-(Add Screenshot)
-
-### Product Listings
-
-(Add Screenshot)
-
-### My Listings
-
-(Add Screenshot)
-
-### Shopping Cart
-
-(Add Screenshot)
-
-### Login Page
-
-(Add Screenshot)
-
----
 
 ## 💡 Future Improvements
 
